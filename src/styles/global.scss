@@ -1,5 +1,24 @@
 @use 'variables' as *;
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Podkova:wght@400;700&display=swap');
+
+:root {
+  --clr-base-400: #5e5e5e;
+  --clr-base-500: #494949;
+  --clr-accent-400: #7e47c5;
+
+  --ff-accent: 'Podkova', serif;
+  --ff-base: 'Open Sans', sans-serif;
+
+  --fs-300: 0.75rem;
+  --fs-400: 1rem;
+  --fs-500: 2rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  --border-radius: 0.75rem;
+}
 
 *,
 *::before,
@@ -15,7 +34,9 @@ body {
   height: 100%;
   min-height: 100%;
   margin: 0;
-  font-family: 'Balsamiq Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: var(--clr-base-400);
   background: white;
 }
 
