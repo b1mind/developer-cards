@@ -1,4 +1,6 @@
 <script>
+  import SocialIcons from './SocialIcons.svelte'
+
   export let personShape = {
     name: 'no name',
     tags: ['none'],
@@ -25,9 +27,7 @@
   </div>
 
   <div class="links">
-    <i>s</i>
-    <i>bs</i>
-    <i>a</i>
+    <SocialIcons />
   </div>
 
   <a href="#void" class="btn">Hire</a>
@@ -56,7 +56,7 @@
       margin: 0;
       font-family: var(--ff-accent);
       font-weight: 700;
-      font-size: 2.125rem;
+      font-size: 3rem;
       color: var(--clr-base-500);
     }
 
@@ -107,9 +107,9 @@
     --clr-bg: #e2ffea;
   }
 
-  [data-tag='Design'] {
-    --clr: #580d3a;
-    --clr-bg: #f8e2ff;
+  [data-tag='Developer'] {
+    --clr: #024f2f;
+    --clr-bg: #e2fcff;
   }
 
   [data-tag='UI Design'] {

@@ -18,16 +18,17 @@
 
   main {
     margin: 6rem auto;
+    padding: 0 0.75em;
     max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
     gap: 0.75rem 1.75rem;
 
     @media (max-width: $minWidthLg) {
-      margin: 0 0.75rem;
     }
 
     @media (max-width: $minWidthSml) {
+      margin: 0;
       grid-template-columns: 1fr;
     }
   }

@@ -1,13 +1,13 @@
 [
   {
     "name": "Jo Smo",
-    "tags": ["Design", "UI Design", "UX Design"],
+    "tags": ["Developer", "UI Design", "UX Design"],
     "desc": "With award winning designs at several agencies and 18 years of experiences, Jo brings the full package to your team.",
     "img": "https://randomuser.me/api/portraits/men/1.jpg"
   },
   {
     "name": "Maggie Shi",
-    "tags": ["Design", "UX Design"],
+    "tags": ["Developer", "UX Design"],
     "desc": "With award winning designs at several agencies and 18 years of experiences, John brings the full package to your team.",
     "img": "https://randomuser.me/api/portraits/women/2.jpg"
   },
@@ -31,7 +31,7 @@
   },
   {
     "name": "Reba Smith",
-    "tags": ["Design", "UI Design", "UX Design"],
+    "tags": ["Developer", "UI Design", "UX Design"],
     "desc": "With award winning designs at several agencies and 18 years of experiences, John brings the full package to your team.",
     "img": "https://randomuser.me/api/portraits/women/6.jpg"
   }
